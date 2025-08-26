@@ -26,8 +26,6 @@ Login/
 ├── index.html      # Ana sayfa
 ├── style.css       # Stil dosyası
 ├── script.js       # JavaScript işlemleri
-├── assets/
-│   └── demo.gif    # Uygulama demo GIF
 └── README.md       # Proje açıklaması
 
 Şifre Gücü ve Kriterler
