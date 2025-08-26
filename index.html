@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="container">
+
+    <!-- Sign Up -->
+    <div class="form-container sign-up">
+      <form id="signUpForm">
+        <h1>Kayıt Ol</h1>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <span>ya da e-postanızı kullanın</span>
+
+        <div class="input-group"><input type="text" placeholder="Adınız" required></div>
+        <div class="input-group"><input type="email" placeholder="E-mail" required></div>
+        <div class="input-group password-group">
+        <input type="password" placeholder="Şifre" id="signUpPassword" required>
+        <i class="fa-regular fa-eye toggle-password"></i>
+        </div>
+
+        <div class="password-strength-container">
+        <div class="password-strength">
+            <div class="strength-bar"></div>
+        </div>
+        <span class="strength-text">Şifre gücü</span>
+        </div>
+
+        <div class="password-requirements-container">
+        <ul class="password-requirements">
+            <li id="length" class="invalid">En az 6 karakter</li>
+            <li id="uppercase" class="invalid">Büyük harf (A-Z)</li>
+            <li id="lowercase" class="invalid">Küçük harf (a-z)</li>
+            <li id="number" class="invalid">Sayı (0-9)</li>
+            <li id="special" class="invalid">Özel karakter (!@#$%^&*?)</li>
+        </ul>
+        <button type="submit">Kayıt Ol</button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Sign In -->
+    <div class="form-container sign-in">
+      <form id="signInForm">
+        <h1>Giriş Yap</h1>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-google"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+        </div>
+        <span>ya da e-postanızı kullanın</span>
+        <div class="input-group"><input type="email" placeholder="E-mail" required></div>
+        <div class="input-group password-group">
+          <input type="password" placeholder="Şifre" required>
+          <i class="fa-regular fa-eye toggle-password"></i>
+        </div>
+        <a href="#">Şifreni mi unuttun?</a>
+        <button type="submit">Giriş Yap</button>
+      </form>
+    </div>
+
+    <!-- Toggle Panel -->
+    <div class="toggle-container">
+      <div class="toggle-panel toggle-right">
+        <h1>Merhaba Arkadaşım!</h1>
+        <p>Sitenin tüm özelliklerini kullanmak için kayıt olun!</p>
+        <button id="toggleButton">Kayıt Ol</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
