@@ -42,7 +42,7 @@ Rakam (0-9)
 
 Demo
 
-Aşağıda uygulamanın kısa bir demo GIF’i yer almaktadır:
+Uygulamanın kısa bir demo GIF’i yer almaktadır:
 
 Katkıda Bulunma
 
